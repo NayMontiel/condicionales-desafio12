@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/logo-js.png" type="image/x-icon">
+    <title>Condicionales</title>
+</head>
+<body>
+   <div class="container">
+    <header>
+        <nav>
+            <img id="img" class="b-none" src="assets/img/logo-js.png" onclick="clickImg()"/>
+        </nav>
+    </header>
+
+    <div class="card" id="card-stickers">
+        <div class="box-card">
+            <img src="assets/img/github-stickers.png" alt="">
+            <input type="text" id="box1" value ="0"/>
+        </div>
+
+        <div class="box-card">
+            <img src="assets/img/react-stickers.png" alt="">
+            <input type="text" id="box2" value ="0"/>
+        </div>
+
+        <div class="box-card">
+            <img src="assets/img/node-stickers.jpg" alt="">
+            <input type="text" id="box3" value ="0" />
+        </div>
+
+        <div id="result1"></div>
+
+       <div><button id="btn-verificar" onclick="clickVerificar()">Verificar</button></div>
+    </div>
+
+    <section>
+        <h2>Ingresa el Password</h2>
+        <div class="pass-number">
+            <select name="number" id="number1">
+                <option value="value"></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="number" id="number2">
+                <option value="value"></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select name="number" id="number3">
+                <option value="value"></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+
+        <div id="result2"></div>
+
+        <button id="btn-ingresar" onclick="clickIngresar()">Ingresar</button>
+    </section>
+   </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
